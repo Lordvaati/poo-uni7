@@ -1,7 +1,7 @@
 CONTROLE DE VERSÃO
 - Mantém base histórica da evolução do código fonte de um software
 - Ferramentas:
--- Gi
+-- Git
 
 Passos:
 0 - Instalar o Git
@@ -9,4 +9,7 @@ Passos:
 2 - 'git init' para iniciar um novo repositório do Git
 3 - 'git status' para verificar o estado dos arquivos do repositório
 4 - 'git add' para incluir arquivos do tracking do Git
-5 - 'git commit -m "uma mensagem descritiva"' para confirmar as mudanças do stage para o repositório local 
+5 - 'git config --global usar.email "seu@email.com"'
+6 - 'git config --global user.name "Seu Nome"'
+7 - 'git commit -m "uma mensagem descritiva"' para confirmar as mudanças do stage para o repositório local
+8 - 'git log' para ver o histórico de commits do repositório local
